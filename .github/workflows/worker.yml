@@ -11,7 +11,6 @@
 name: 编译OpenWrt固件
 
 on:
-  repository_dispatch:
   workflow_dispatch:
     inputs:
       ssh:
